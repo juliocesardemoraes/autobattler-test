@@ -1,0 +1,33 @@
+:root{
+   --char-scale: 4
+}
+*{
+   margin: 0;
+   padding:0
+}
+
+ body {
+    background: #96ffc1;
+ }
+ 
+ .Character {
+    position: relative;
+ }
+
+ .battlefield{
+   height: 50vh;
+ }
+ 
+.char_animate{
+   width: calc(24px * var(--char-scale));
+   height: calc(24px * var(--char-scale));
+}
+ .chars{
+   width: 50vw;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ 

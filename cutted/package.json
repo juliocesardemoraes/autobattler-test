@@ -1,0 +1,16 @@
+{
+  "name": "cutted",
+  "version": "1.0.0",
+  "main": "filemover.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node filemover.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
